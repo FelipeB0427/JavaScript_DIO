@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script type="text/javascript" src="js/main.js"></script>
+  <title>JavaScript DIO</title>
+  
+</head>
+<body onload="carrega()">
+
+  <button type="button" onclick="botao()">Clique</button>
+  <p id="click" onclick="redirecionar()"></p>
+  <p id="mousemove" onmouseover="trocar(this)" onmouseout="voltar(this)">Passe o mouse sobre.</p>
+
+  <select onchange="muda(this)">
+
+    <option value="1">Valor 1</option>
+    <option value="2">Valor 2</option>
+    <option value="3">Valor 3</option>
+
+  </select>
+
+</body>
+</html>
